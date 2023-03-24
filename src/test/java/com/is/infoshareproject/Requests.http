@@ -1,0 +1,23 @@
+
+###
+POST http://localhost:8080/transactions
+Content-Type: application/json
+
+{
+  "name": "Grocery store",
+  "value": "129.9",
+  "userId": "157572"
+}
+
+###
+PUT http://localhost:8080/transactions/1
+Content-Type: application/json
+
+{
+"name": "Grocery stoora- long Island",
+"value": "143.6",
+"userId": "157572"
+}
+
+###
+GET http://localhost:8080/transactions/points/157572
